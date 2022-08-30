@@ -5,6 +5,7 @@ abstract class ApiCallState {}
 
 class ApiCallInitial extends ApiCallState {}
 class ApiLoadingData extends ApiCallState{}
+
 class ApiLoadedData extends ApiCallState{
   final ApiTest apiTest;
   final DataModel dataModel;

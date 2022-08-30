@@ -40,6 +40,8 @@ dependencies:
   conditional_builder_null_safety: ^0.0.6
   curved_navigation_bar: ^1.0.3
   multi_select_flutter: ^4.1.2
+  flutter_typeahead: ^4.0.0
+
 
 
 

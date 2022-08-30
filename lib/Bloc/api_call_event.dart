@@ -3,6 +3,7 @@ part of 'api_call_bloc.dart';
 @immutable
 abstract class ApiCallEvent {}
 class fetchData extends ApiCallEvent{}
+
 class openDrawer extends ApiCallEvent{}
 class closeDrawer extends ApiCallEvent{}
 class PostEvent extends ApiCallEvent{

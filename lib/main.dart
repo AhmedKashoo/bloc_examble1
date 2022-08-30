@@ -9,6 +9,7 @@ import 'Presentation/Login.dart';
 import 'Presentation/Ui.dart';
 import 'Presentation/bottomNav.dart';
 import 'Presentation/catSelect.dart';
+import 'Presentation/search.dart';
 
 void main() {
   DioHelper.init();
