@@ -1,10 +1,12 @@
 import 'package:bloc_examble/Bloc/api_call_bloc.dart';
 import 'package:bloc_examble/Data/Repo/Dio.dart';
+import 'package:bloc_examble/ProductBloc/produc_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'Bloc/ob.dart';
 import 'Login/login_bloc.dart';
+import 'Presentation/Home.dart';
 import 'Presentation/Login.dart';
 import 'Presentation/Ui.dart';
 import 'Presentation/bottomNav.dart';
@@ -31,11 +33,14 @@ class MyApp extends StatelessWidget {
         BlocProvider(
           create: (context) =>LoginBloc(),
         ),
+        BlocProvider(
+          create: (context) =>ProducBloc(),
+        ),
       ],
       child: MaterialApp(
 
 
-        home: catList(),
+        home: Home(),
       ),
     );
   }

@@ -7,7 +7,7 @@ class DioHelper
   static init(){
     dio=Dio(
       BaseOptions(
-          baseUrl: 'http://192.168.0.201:8080/souq/rest/',
+          baseUrl: 'http://192.168.0.201:8080/souq/matgarDetailsServe?id=178',
           receiveDataWhenStatusError: true,
           headers:{
 
